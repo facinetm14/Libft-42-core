@@ -6,11 +6,10 @@
 /*   By: fakouyat <fakouyat@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/11 14:35:36 by fakouyat          #+#    #+#             */
-/*   Updated: 2022/05/17 15:09:02 by fakouyat         ###   ########.fr       */
+/*   Updated: 2022/05/22 14:17:20 by fakouyat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* this function find the bigest ten multiple of n */
 #include "libft.h"
 
 int	ft_nb_digits(int n)

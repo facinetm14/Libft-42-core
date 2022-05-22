@@ -6,7 +6,7 @@
 /*   By: fakouyat <fakouyat@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/11 23:03:23 by fakouyat          #+#    #+#             */
-/*   Updated: 2022/05/13 13:34:44 by fakouyat         ###   ########.fr       */
+/*   Updated: 2022/05/22 14:18:53 by fakouyat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,7 @@ int	static	ft_lenght_str(char *s)
 
 void	ft_putstr_fd(char *s, int fd)
 {
-	int	i;
-
 	if (!s)
 		return ;
-	i = 0;
 	write (fd, s, ft_lenght_str(s));
 }
